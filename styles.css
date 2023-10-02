@@ -61,12 +61,13 @@
     color: white;
     font-size: 39px;
     font-weight: 500;
-    text-shadow: 2px 5px 1px black;
+    text-shadow: 2px 5px 1px rgb(0, 0, 0);
 }
 .home .content h1{
     color: white;
     font-size: 70px;
     font-weight: 500;
+    text-shadow: 3px 5px 1px rgb(0, 0, 0);
 
 }
 /* home section end*/
