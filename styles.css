@@ -75,10 +75,21 @@
     content: ' ';
     color: orange;
     text-shadow: 2px 4px 1px rgb(0, 0, 0);
-    animation: changetext 10s infinite linear;
+    animation: changetext 25s infinite linear;
 }
 @keyframes changetext{
     0%{content: " Machu Picchu ";}
+    10%{content: " Valle del Colca ";}
+    20%{content: " Choquequirao ";}
+    30%{content: " Líneas de Nazca ";}
+    40%{content: " Kuelap ";}
+    50%{content: " Caral ";}
+    60%{content: " Lago Titicaca ";}
+    70%{content: " Río Amazonas ";}
+    80%{content: " Montaña de Colores ";}
+    90%{content: " Camino Inca ";}
+    100%{content:" Cueva de las lechuzas ";}
+    110%{content:" La Ducha del Diablo ";}
 }
 
 .home .content p{
