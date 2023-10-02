@@ -71,4 +71,12 @@
     margin-top: 5px;
 
 }
+.home .content p{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-shadow: 2px 4px 1px rgb(0, 0, 0);
+    margin-bottom: 30px;
+    
+}
 /* home section end*/
