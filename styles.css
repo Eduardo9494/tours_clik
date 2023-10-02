@@ -128,6 +128,9 @@
     .home .content h1{
         font-size: 38px;
     }
+    .home .content p{
+        font-size: 13px;
+    }
 }
 /* home section end*/
 
