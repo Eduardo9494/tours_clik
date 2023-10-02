@@ -5,7 +5,7 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Pacifico', cursive;
 }
 #navbar{
     background: #f6f7f8d8;
@@ -75,7 +75,7 @@
     content: ' ';
     color: orange;
     text-shadow: 2px 4px 1px rgb(0, 0, 0);
-    animation: changetext 25s infinite linear;
+    animation: changetext 30s infinite linear;
 }
 @keyframes changetext{
     0%{content: " Machu Picchu ";}
@@ -101,4 +101,15 @@
     margin-top: 5px;
     
 }
+.home .content a{
+    padding: 10px;
+    background: white;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
 /* home section end*/
+
