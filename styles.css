@@ -112,5 +112,9 @@
     text-decoration: none;
     transition: 0.5s;
 }
+.home .content a:hover{
+    background: rgb(14, 112, 136);
+    color: white;
+}
 /* home section end*/
 
