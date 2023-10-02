@@ -66,11 +66,21 @@
 .home .content h1{
     color: white;
     font-size: 70px;
-    font-weight: 500;
+    font-weight: 400;
     text-shadow: 3px 5px 1px rgb(0, 0, 0);
     margin-top: 5px;
 
 }
+.changecontent::after{
+    content: ' ';
+    color: orange;
+    text-shadow: 2px 4px 1px rgb(0, 0, 0);
+    animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+    0%{content: " Machu Picchu ";}
+}
+
 .home .content p{
     color: white;
     font-size: 15px;
