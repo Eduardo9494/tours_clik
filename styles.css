@@ -116,5 +116,10 @@
     background: rgb(14, 112, 136);
     color: white;
 }
+@media (max-whidth:850px){
+    .home{
+        background-position: 50%;
+    }
+}
 /* home section end*/
 
