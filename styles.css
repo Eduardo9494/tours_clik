@@ -183,5 +183,10 @@
 .book .submit:hover{
     width: 170px;
 }
+@media (max-width:765px){
+    .book{
+        padding: 0;
+    }
+}
 /* section book end */
 
