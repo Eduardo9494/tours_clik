@@ -178,6 +178,10 @@
     background: orange;
     color: white;
     margin-top: 10px;
+    transition: 0.5s;
+}
+.book .submit:hover{
+    width: 170px;
 }
 /* section book end */
 
