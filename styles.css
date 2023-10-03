@@ -164,5 +164,8 @@
     border-radius: 10px;
     box-shadow: 5px 5px 6px -4px rgb(141, 74, 19);
 }
+.book form textarea{
+    border: none;
+}
 /* section book end */
 
