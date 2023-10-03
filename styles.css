@@ -136,11 +136,13 @@
 
 /* section book stard */
 .book{
-    background: rgba(0, 0, 0, 0.918);
+    background: rgba(248, 248, 248, 0.829);
     padding: 50px;
 }
 .main-text h1{
     text-align: center;
+    text-shadow: 0px 3px 1px rgb(0, 0, 0);
+    font-weight: 600;
 }
 /* section book end */
 
