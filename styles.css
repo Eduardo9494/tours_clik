@@ -166,6 +166,9 @@
 }
 .book form textarea{
     border: none;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 5px 5px 6px -4px rgb(141, 74, 19);
 }
 /* section book end */
 
