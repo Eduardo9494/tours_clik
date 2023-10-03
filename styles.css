@@ -139,5 +139,8 @@
     background: rgba(0, 0, 0, 0.918);
     padding: 50px;
 }
+.main-text h1{
+    text-align: center;
+}
 /* section book end */
 
