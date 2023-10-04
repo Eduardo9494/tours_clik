@@ -46,7 +46,7 @@
     border: none;
 }
 
-/* home section stard*/
+/* home section start*/
 .home{
     width: 100%;
     height: 95vh;
@@ -134,7 +134,7 @@
 }
 /* home section end*/
 
-/* section book stard */
+/* section book start */
 .book{
     background: rgba(248, 248, 248, 0.829);
     padding: 50px;
@@ -192,4 +192,15 @@
         }
 }
 /* section book end */
+
+
+
+/* section paqutes start */
+.main-text h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+/* section paqutes end */
 
