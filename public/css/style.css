@@ -8,21 +8,22 @@
     /*font-family: 'Pacifico', cursive;*/
     font-family: 'Pacifico', cursive;
 }
+/* Navbar Start */
 #navbar{
-    background: #f6f7f8d8;
+    background: #f9f9f9;
 }
 #logo{
     font-size: 36px;
-    font-weight:900;
+    font-weight: 550;
     color: black;
     text-shadow: 0px 1px 1px black;
     margin-bottom: 5px;
 }
 #logo span{
-    color: brown;
+    color: #ee3a3a;
 }
 .navbar-toggler span{
-    color:  #ffa500;
+    color: #ffa500;
 }
 .navbar-nav{
     margin-left: 20px;
@@ -34,10 +35,9 @@
     letter-spacing: 1px;
     border-radius: 3px;
     transition: 0.5s ease;
-
 }
 .nav-item .nav-link:hover{
-    background:#ffa500;
+    background: #ffa500;
     color: white;
 }
 #navbar form button{
@@ -45,6 +45,7 @@
     color: white;
     border: none;
 }
+/* Navbar End */
 
 /* home section start*/
 .home{
@@ -80,14 +81,14 @@
 }
 @keyframes changetext{
     0%{content: " Machu Picchu ";}
-    10%{content: " Valle del Colca ";}
-    20%{content: " Choquequirao ";}
-    30%{content: " Líneas de Nazca ";}
-    40%{content: " Kuelap ";}
-    50%{content: " Caral ";}
+    10%{content: " Kotosh ";}
+    20%{content: " Casa de la Perricholi ";}
+    30%{content: " Plaza de Armas de Huánuco ";}
+    40%{content: " Mayantuyacu ";}
+    50%{content: " Iglesia de San Francisco ";}
     60%{content: " Lago Titicaca ";}
-    70%{content: " Río Amazonas ";}
-    80%{content: " Montaña de Colores ";}
+    70%{content: " Catedral de Huánuco ";}
+    80%{content: " Yarowilca ";}
     90%{content: " Camino Inca ";}
     100%{content:" Cueva de las lechuzas ";}
     110%{content:" La Ducha del Diablo ";}
@@ -207,4 +208,3 @@
 }
 
 /* section paqutes end */
-

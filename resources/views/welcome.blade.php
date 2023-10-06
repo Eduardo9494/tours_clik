@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tours</title>
     
-    <link rel="stylesheet" href="styles.css">
+    <<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
+
+
 
     <!--boostrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -65,7 +68,7 @@
 
       <div class="home">
         <div class="content">
-          <h5>BIENVENIDOS A PERÚ</h5>
+          <h5>BIENVENIDOS A HUÁNUCO</h5>
           <h1>VISITA <span class="changecontent"></span></h1>
           <p>Ven a peru y disfruta una de las mejores experiencias del turismo<br> peru lo tiene todo y te sorprendera</p>
           <a href="#book">Book Place</a>
@@ -85,7 +88,7 @@
           <div class="row">
             <div class="col-md-6 py-3 py-md-0">
             <div class="card">
-              <img src="./imagenes/sss.jpg" alt="">
+              <img src="{{ asset('imagenes/llamafeliz.jpg') }}" alt="">
             </div>
           </div>
 
@@ -121,7 +124,8 @@
             <div class="col-md-4 py-3 py-md-0">
 
               <div class="card">
-                <img src="./imagenes/1.webp" alt="">
+                <img src="./images/1.webp" alt="">
+                <img src="{{ asset('imagenes/1.webp') }}" alt="">
                 <div class="card-body">
                   <h3> Machu Picchu </h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -162,4 +166,3 @@
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </html>
-
