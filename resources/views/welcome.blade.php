@@ -29,20 +29,20 @@
  
     <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container">
-          <a class="navbar-brand" href="index.html" id="logo"><span>CITY</span>tours</a>
+          <a class="navbar-brand" href="#" id="logo"><span>CITY</span>tours</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span><i class="fa-solid fa-bars"></i></span>
           </button>
           <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="index.html">Inicio</a>
+                <a class="nav-link active" href="#">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#book">Book</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#paquetes">Paquetes</a>
+                <a class="nav-link" href="#paquete">Paquetes</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#Servicios">Servicios</a>
@@ -55,8 +55,8 @@
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="text" placeholder="Search">
-              <button class="btn btn-primary" type="button">Search</button>
+              <input class="form-control me-2" type="text" placeholder="Buscar">
+              <button class="btn btn-primary" type="button">Buscar</button>
             </form>
           </div>
         </div>
@@ -112,7 +112,7 @@
 
       <!-- section paquetes stard -->
 
-      <section class="paquetes" id="paquetes">
+      <section class="paquete" id="paquete">
         <div class="container">
           
           <div class="main-text">
@@ -134,30 +134,138 @@
                     <i class="fa-solid fa-star checked"></i>
                     <i class="fa-solid fa-star checked"></i>
                     <i class="fa-solid fa-star checked"></i>
-                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star "></i>
                   </div>
-                  <h6>Precio: <strong>$320.00</strong></h6>
+                  <h6>Precio: <strong>$320.00</strong></h6><br>
+                  <a href="#book">Book Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+
+              <div class="card">
+                <img src="./images/1.webp" alt="">
+                <img src="{{ asset('imagenes/1.webp') }}" alt="">
+                <div class="card-body">
+                  <h3> Machu Picchu </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <div class="stard">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star "></i>
+                  </div>
+                  <h6>Precio: <strong>$320.00</strong></h6><br>
                   <a href="#book">Book Now</a>
                 </div>
               </div>
 
             </div>
-          
+
+            <div class="col-md-4 py-3 py-md-0">
+
+              <div class="card">
+                <img src="./images/1.webp" alt="">
+                <img src="{{ asset('imagenes/1.webp') }}" alt="">
+                <div class="card-body">
+                  <h3> Machu Picchu </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <div class="stard">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star "></i>
+                  </div>
+                  <h6>Precio: <strong>$320.00</strong></h6><br>
+                  <a href="#book">Book Now</a>
+                </div>
+              </div>
+
+            </div>
           </div>
-          
-        </div>
-      </section>
 
 
-      <!-- section paquetes end -->
+          <div class="row" style="margin-top: 30px;">
 
-      
+            <div class="col-md-4 py-3 py-md-0">
+
+              <div class="card">
+                <img src="./images/1.webp" alt="">
+                <img src="{{ asset('imagenes/1.webp') }}" alt="">
+                <div class="card-body">
+                  <h3> Machu Picchu </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <div class="stard">
+                    <i class="fa-solid fa-star checked"></i> 
+                    <i class="fa-solid fa-star checked"></i> 
+                    <i class="fa-solid fa-star checked"></i> 
+                    <i class="fa-solid fa-star checked"></i> 
+                    <i class="fa-solid fa-star "></i> 
+                  </div>
+                  <h6>Precio: <strong>$320.00</strong></h6><br> 
+                  <a href="#book">Book Now</a> 
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0"> 
+  
+              <div class="card"> 
+                <img src="./images/1.webp" alt=""> 
+                <img src="{{ asset('imagenes/1.webp') }}" alt="">
+                <div class="card-body"> 
+                  <h3> Machu Picchu </h3>  
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+                  <div class="stard">  
+                    <i class="fa-solid fa-star checked"></i> 
+                    <i class="fa-solid fa-star checked"></i> 
+                    <i class="fa-solid fa-star checked"></i> 
+                    <i class="fa-solid fa-star checked"></i> 
+                    <i class="fa-solid fa-star "></i> 
+                  </div> 
+                  <h6>Precio: <strong>$320.00</strong></h6><br> 
+                  <a href="#book">Book Now</a> 
+                </div>  
+              </div>  
+ 
+            </div> 
+ 
+            <div class="col-md-4 py-3 py-md-0"> 
+ 
+              <div class="card"> 
+                <img src="./images/1.webp" alt=""> 
+                <img src="{{ asset('imagenes/1.webp') }}" alt=""> 
+                <div class="card-body"> 
+                  <h3> Machu Picchu </h3> 
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+                  <div class="stard"> 
+                    <i class="fa-solid fa-star checked"></i> 
+                    <i class="fa-solid fa-star checked"></i> 
+                    <i class="fa-solid fa-star checked"></i> 
+                    <i class="fa-solid fa-star checked"></i>  
+                    <i class="fa-solid fa-star "></i> 
+                  </div>  
+                  <h6>Precio: <strong>$320.00</strong></h6><br> 
+                  <a href="#book">Book Now</a> 
+                </div> 
+              </div>  
+ 
+            </div> 
+ 
+ 
+           
+          </div> 
+        </div> 
+      </section> 
+   
+ 
+      <!-- section paquetes end --> 
 
 
 
-
-
-      
 
 
 
