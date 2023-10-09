@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tours</title>
-    
-    <<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>tours</title>
+
+        <<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 
 
@@ -45,13 +46,13 @@
                 <a class="nav-link" href="#paquete">Paquetes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Servicios">Servicios</a>
+                <a class="nav-link" href="#servicios">Servicios</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#Galeria">Galeria</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#About">About</a>
+                <a class="nav-link" href="#Conocenos">Conocenos</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -125,9 +126,9 @@
 
               <div class="card">
                 <img src="./images/1.webp" alt="">
-                <img src="{{ asset('imagenes/1.webp') }}" alt="">
+                <img src="{{ asset('imagenes/p1.jpg') }}" alt="">
                 <div class="card-body">
-                  <h3> Machu Picchu </h3>
+                  <h3> Iglesia de San Francisco </h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <div class="stard">
                     <i class="fa-solid fa-star checked"></i>
@@ -146,9 +147,9 @@
 
               <div class="card">
                 <img src="./images/1.webp" alt="">
-                <img src="{{ asset('imagenes/1.webp') }}" alt="">
+                <img src="{{ asset('imagenes/p2.jfif') }}" alt="">
                 <div class="card-body">
-                  <h3> Machu Picchu </h3>
+                  <h3> Kotosh </h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <div class="stard">
                     <i class="fa-solid fa-star checked"></i>
@@ -168,9 +169,9 @@
 
               <div class="card">
                 <img src="./images/1.webp" alt="">
-                <img src="{{ asset('imagenes/1.webp') }}" alt="">
+                <img src="{{ asset('imagenes/p3.jfif') }}" alt="">
                 <div class="card-body">
-                  <h3> Machu Picchu </h3>
+                  <h3> Casa de la Perricholi </h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <div class="stard">
                     <i class="fa-solid fa-star checked"></i>
@@ -196,7 +197,7 @@
                 <img src="./images/1.webp" alt="">
                 <img src="{{ asset('imagenes/1.webp') }}" alt="">
                 <div class="card-body">
-                  <h3> Machu Picchu </h3>
+                  <h3> Mayantuyacu </h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <div class="stard">
                     <i class="fa-solid fa-star checked"></i> 
@@ -217,7 +218,7 @@
                 <img src="./images/1.webp" alt=""> 
                 <img src="{{ asset('imagenes/1.webp') }}" alt="">
                 <div class="card-body"> 
-                  <h3> Machu Picchu </h3>  
+                  <h3> Lago Titicaca </h3>  
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
                   <div class="stard">  
                     <i class="fa-solid fa-star checked"></i> 
@@ -239,7 +240,7 @@
                 <img src="./images/1.webp" alt=""> 
                 <img src="{{ asset('imagenes/1.webp') }}" alt=""> 
                 <div class="card-body"> 
-                  <h3> Machu Picchu </h3> 
+                  <h3> Yarowilca </h3> 
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
                   <div class="stard"> 
                     <i class="fa-solid fa-star checked"></i> 
@@ -266,17 +267,17 @@
 
 
       <!-- Section Services Start -->
-    <section class="services" id="services">
+    <section class="servicios" id="servicios">
       <div class="container">
         <div class="main-txt">
-          <h1><span>S</span>ervices</h1>
+          <h1><span>S</span>ervicios</h1>
         </div>
         <div class="row" style="margin-top: 30px;">
           <div class="col-md-4 py-3 py-md-0">
             <div class="card">
               <i class="fas fa-hotel"></i>
               <div class="card-body">
-                <h3>Affordable Hotel</h3>
+                <h3>Hotel </h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
               </div>
             </div>
@@ -285,7 +286,7 @@
             <div class="card">
               <i class="fas fa-utensils"></i>
               <div class="card-body">
-                <h3>Food & Drinks</h3>
+                <h3>Alimentos y bebidas</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
               </div>
             </div>
@@ -294,7 +295,7 @@
             <div class="card">
               <i class="fas fa-bullhorn"></i>
               <div class="card-body">
-                <h3>Safty Guide</h3>
+                <h3>Guía de seguridad</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
               </div>
             </div>
@@ -305,7 +306,7 @@
             <div class="card">
               <i class="fas fa-globe-asia"></i>
               <div class="card-body">
-                <h3>Around The World</h3>
+                <h3>Para Todo el mundo</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
               </div>
             </div>
@@ -314,7 +315,7 @@
             <div class="card">
               <i class="fas fa-plane"></i>
               <div class="card-body">
-                <h3>Fastest Travel</h3>
+                <h3>Viajes rápidos y seguros</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
               </div>
             </div>
@@ -323,7 +324,7 @@
             <div class="card">
               <i class="fas fa-hiking"></i>
               <div class="card-body">
-                <h3>Adventures</h3>
+                <h3>Aventuras</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
               </div>
             </div>
@@ -332,6 +333,93 @@
       </div>
     </section>
     <!-- Section Services End -->
+
+
+    <!-- Section Galeria Start -->
+    <section class="Galeria" id="Galeria">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>G</span>aleria</h1>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="{{ asset('imagenes/1.jpg') }}" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="{{ asset('imagenes/2.jpg') }}" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="{{ asset('imagenes/3.jpg') }}" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="{{ asset('imagenes/4.jpg') }}" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="{{ asset('imagenes/5.jfif') }}" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="{{ asset('imagenes/6.jfif') }}" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Galeria End -->
+
+
+    <!-- Conocenos Start -->
+    <section class="Conocenos" id="Conocenos">
+      <div class="container">
+        <div class="main-txt">
+          <h1>Quienes <span>Somos</span></h1>
+        </div>
+        <div class="row" style="margin-top: 50px;">
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="{{ asset('imagenes/somos.jpg') }}" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 py-3 py-md-0">
+            <h2>Cómo funcionan las agencias de viajes</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident perferendis dolorem, numquam earum at nam beatae voluptate natus consectetur facere, saepe cupiditate ut exercitationem deserunt, facilis quam perspiciatis autem iure illo harum minima. Quas, vitae aperiam laudantium alias asperiores nulla rerum, nihil eveniet perferendis sint illum accusamus officiis aliquam nam.</p>
+            <button id="Conocenos-btn">Leer más...</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Conocenos End -->
+
+    <!-- Footer Start -->
+    <footer id="footer">
+      <h1><span>C</span>ity Tours</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus fugiat, ipsa quos nulla qui alias.</p>
+      <div class="social-links">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+      <div class="credit">
+        <p>Diseñado por <a href="#">anonymous</a></p>
+      </div>
+      <div class="copyright">
+        <p>&copy;Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
 
 
 
